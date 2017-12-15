@@ -11,17 +11,17 @@
         /**
          * _path
          * 
-         * @var    string|false (default: false)
-         * @access protected
+         * @var     string|false (default: false)
+         * @access  protected
          */
         protected $_path = false;
 
         /**
          * __construct
          * 
-         * @access public
-         * @param  string $path
-         * @return void
+         * @access  public
+         * @param   string $path
+         * @return  void
          */
         public function __construct($path)
         {
@@ -34,9 +34,9 @@
         /**
          * _setup
          * 
-         * @access protected
-         * @param  stdClass $data
-         * @return void
+         * @access  protected
+         * @param   stdClass $data
+         * @return  void
          */
         public function _setup($data)
         {
@@ -48,8 +48,8 @@
         /**
          * save
          * 
-         * @access public
-         * @return void
+         * @access  public
+         * @return  void
          */
         public function save()
         {
